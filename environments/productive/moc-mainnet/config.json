@@ -38,8 +38,8 @@
         "wait_timeout": 240,
         "gas_limit": 1000000,
         "address": "0x60cEEf03AA1AA96263e297D220EE4EBc3c6b6E47",
-        "min_balance": 500000000000000,
-        "min_balance_fee_token": 500000000000000000000,
+        "min_balance": 5000000000000000,
+        "min_balance_fee_token": 5000000000000000000000,
         "ac_token": "",
         "fee_token": "0x9AC7fE28967B30E3A4e6e03286d715b42B453D10"
       },
@@ -48,8 +48,8 @@
         "wait_timeout": 240,
         "gas_limit": 1000000,
         "address": "0x114921bcbd5fc34E103494d338cA492B9400B0fD",
-        "min_balance": 500000000000000,
-        "min_balance_fee_token": 500000000000000000000,
+        "min_balance": 5000000000000000,
+        "min_balance_fee_token": 5000000000000000000000,
         "ac_token": "",
         "fee_token": ""
       }

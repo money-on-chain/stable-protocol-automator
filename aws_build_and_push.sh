@@ -52,11 +52,6 @@ docker image build -t moc_jobs_$ENV -f Dockerfile --build-arg CONFIG=$CONFIG_FIL
 
 echo "Build done!"
 
-# login into aws ecr
-$(aws ecr get-login --no-include-email --region $AWS_REGION)
-
-echo "Logging to AWS done!"
-
 docker tag moc_jobs_$ENV:latest $AWS_ID.dkr.ecr.$AWS_REGION.amazonaws.com/moc_jobs_$ENV:latest
 
 docker push $AWS_ID.dkr.ecr.$AWS_REGION.amazonaws.com/moc_jobs_$ENV:latest
