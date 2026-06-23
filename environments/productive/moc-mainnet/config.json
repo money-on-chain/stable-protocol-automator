@@ -17,11 +17,6 @@
       "partial_execution_steps": 20,
       "gas_limit": 4500000
     },
-    "daily_inrate_payment": {
-      "interval": 5,
-      "wait_timeout": 240,
-      "gas_limit": 600000
-    },
     "pay_bitpro_holders": {
       "interval": 5,
       "wait_timeout": 240,
